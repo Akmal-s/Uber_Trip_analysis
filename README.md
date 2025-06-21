@@ -2,26 +2,27 @@
 An end-to-end industry-level data analytics project that dives into Uber trip data to uncover meaningful insights into user behavior, trip patterns, and payment methods. The project follows a complete data lifecycle — from raw data cleaning in SQL, exploratory data analysis (EDA) in Python, to dynamic dashboard creation in Power BI.
 
 
-## 📊 Project Overview
-This project aims to extract and visualize key performance indicators (KPIs) for Uber trips, including:
+## 📌 Project Summary
+This project explores trip data from Uber to identify trends, user preferences, and operational patterns. It focuses on providing key business metrics such as:
 
-Total bookings and revenue
+Total and average bookings
 
-Trip distribution by day/night
+Trip behavior by time of day and week
 
-Most popular pickup locations
+Top pickup locations
 
 Preferred payment methods
 
-Vehicle usage and trip distance insights
-
-Weekly trip trends
+Vehicle type performance and usage
 
 ## 🧰 Tools & Technologies
-Tool	Purpose
-SQL -	Data cleaning and preprocessing
-Python- Exploratory Data Analysis (EDA)
-Power BI - Interactive dashboard creation
+
+| Tool       | Use Case                          |
+|------------|------------------------------------|
+| SQL        | Data cleaning and transformation   |
+| Python     | Exploratory Data Analysis (EDA)    |
+| Power BI   | Interactive dashboard creation     |
+
 
 ## 🔍 Key Insights
 UberX has the highest number of trips and trip distance.
@@ -45,21 +46,27 @@ Trip trends by category
 
 Outlier detection
 
-## 📈 Power BI Dashboard Features
-KPIs: Total Bookings, Revenue, Avg Booking Amount, Trip Distance
+📈 Dashboard Features
+KPI Tiles: Total bookings, revenue, average fare, trip distance
 
-Filters: Payment Type & Passenger Count
+Filters: Payment method and passenger count
 
-Interactive Charts:
+Visuals:
 
-Trips by Day
+Trip type split (Day vs. Night)
 
-Payment Method Split
+Trips by day of the week
 
-Trip Type (Day/Night)
+Most common pickup points
 
-Most Visited Locations
+Vehicle type vs. trip distance
 
-Vehicle-wise Trip Distribution
+Payment method distribution
+
+
+
+
+
+preview : ![Dashboard Preview](https://github.com/Akmal-s/Uber_Trip_analysis/blob/main/Uber_Trip_Analysis.png)
 
 
